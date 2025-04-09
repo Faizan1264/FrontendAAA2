@@ -77,6 +77,7 @@
     padding: 10px;
     flex-grow: 1;
     flex-direction: column;
+    justify-content: center;
 }
 
 .todo-container {
