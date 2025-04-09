@@ -117,7 +117,9 @@ const SignUp = () => {
   const [formData, setFormData] = useState({ name: '', email: '', password: '' });
   const navigate = useNavigate();
 
-  const API_URL = 'http://localhost:3002/api/users/register';
+  // const API_URL = 'http://localhost:3002/api/users/register';
+  const API_URL = 'https://backendaaa2.onrender.com/api/users/register';
+
 
   useEffect(() => {
     const user = localStorage.getItem('user');

@@ -5,7 +5,9 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Toaster, toast } from 'react-hot-toast';
 import './Login.css';
 
-const API_URL = 'http://localhost:3002/api/users/register';
+// const API_URL = 'http://localhost:3002/api/users/register';
+const API_URL = 'https://backendaaa2.onrender.com/api/users/register';
+
 
 const Login = () => {
   const [formData, setFormData] = useState({ email: '', password: '' });

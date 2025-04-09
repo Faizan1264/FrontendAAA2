@@ -12,6 +12,7 @@ p , h3{
     justify-content: center;
     flex-direction: column;
     background-color: #ccc;
+    padding-left: 10px;
 }
 .footer-container{
     display: flex;

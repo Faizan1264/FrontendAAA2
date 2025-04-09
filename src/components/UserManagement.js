@@ -14,7 +14,8 @@ const UserManagement = () => {
   const [isLoading, setIsLoading] = useState(false);
 
   // API base URL
-  const API_URL = 'http://localhost:3002/api/users';
+  // const API_URL = 'http://localhost:3002/api/users';
+  const API_URL = 'https://backendaaa2.onrender.com/api/users';
 
   // Fetch all users
   const fetchUsers = async () => {
