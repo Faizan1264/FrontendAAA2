@@ -1,0 +1,4 @@
+ .about-container {
+    background-image: linear-gradient(#ccc, #9757aa);
+    min-height: calc(100vh - 50px); /* Subtract approximate header height */
+}

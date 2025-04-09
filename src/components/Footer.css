@@ -1,0 +1,78 @@
+p , h3{
+    margin: 0;
+    padding: 0;
+  }
+  
+
+.footer-main-container{
+    display: flex;
+   
+    height: auto;
+    position: relative;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ccc;
+}
+.footer-container{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    gap: 20px;
+}
+.footer-icon-container{
+    display: flex;
+    max-width: 340px;
+    height: auto;
+    align-items: center;
+    gap: 10px;
+    margin: 10px;
+}
+.mail{
+    height: 50px;
+    width: 20px;
+}
+
+.icon-para{
+    color: black;
+}
+.connecting-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+.footer-heading{
+    font-size: 15px;
+}
+.heading-para-container{
+     display: flex;
+     flex-direction: column;
+    
+     
+}
+.linkedin{
+    width: 30px;
+    height: 30px;
+    color: rgb(129, 126, 126);
+}
+@media (max-width : 480px){
+    .footer-container{
+        flex-direction: column;
+        gap: 4px;
+    }
+    .footer-icon-container{
+        margin: 0;
+    }
+}
+
+@media (max-width : 680px){
+    .footer-container{
+        flex-direction: column;
+        
+        
+    }
+    .footer-icon-container{
+        margin: 0;
+    }
+}

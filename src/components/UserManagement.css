@@ -1,0 +1,215 @@
+
+  
+  .image{
+    height: 20px;
+  }
+  .main-user-container{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-image:linear-gradient(to right , #a7b367, rgba(11, 218, 204, 0.2)) ;
+    align-items: center;
+    min-height: calc(100vh - 50px);
+  }
+  
+  
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 470px;
+    height: 360px;
+    margin: 20px;
+    padding: 10px;
+    top: 5%;
+    background-color: #fff;
+    box-shadow: 4px 4px 10px rgba(0, 0, 255, 0.3); 
+    transition: all 0.3s ease-in-out;
+    border-radius: 4px;
+  }
+  
+  
+  .form-container:hover {
+    box-shadow: 6px 6px 15px rgba(0, 0, 255, 0.5); 
+    transform: scale(1.02);
+  }
+  
+  
+  .user-heading{
+    padding-bottom: 10px;
+    color: hsl(215, 39%, 29%);
+    font-weight: 600;
+  }
+  
+  
+  .user-form{
+    display: flex;
+   
+    width: 100%;
+  }
+  .user-name-input{
+     width: 100%;
+     border-radius: 5px;
+     height: 40px;
+     border-width: 0;
+     background-color: #ccc;
+     padding-left: 10px;
+     outline: none;
+     margin-right: 10px;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .add-button-user{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: #9d89c2;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  /* For Webkit Browsers (Chrome, Edge, Safari) */
+  ::-webkit-scrollbar {
+   
+    width: 6px; /* Slimmer width for vertical scrollbar */
+    height: 3px; /* Smaller height for horizontal scrollbar */
+  }
+  
+  /* Scrollbar Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; /* Light grey background */
+    border-radius: 5px;
+  }
+  
+  /* Scrollbar Thumb (Draggable Part) */
+  ::-webkit-scrollbar-thumb {
+    background: #9e8dbd; /* Purple color */
+    border-radius: 5px;
+  }
+  
+  /* Scrollbar Thumb on Hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #514170; /* Darker purple */
+  }
+  
+  
+  
+  
+  
+  
+  
+  .cancel-btn{
+    width: 90px;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: hsl(2, 68%, 43%);
+    cursor: pointer;
+    margin-top: 10px;
+    color: #fff;
+   
+  }
+  .action-buttons{
+    display: flex;
+    gap: 20px;
+  }
+  .users-list-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 15px;
+    position: relative;
+    overflow-y: auto;
+    height: auto;
+  }
+  .table-container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+   
+  
+    
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    
+  }
+  
+  thead {
+    
+    background-color: #9d89c2;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    
+  }
+  
+  .image-button-edit{
+    color: #fff;
+    background-color: #3f6eac;
+    width: 50px;
+    border-width: 0;
+    border-radius: 3px;
+    height: 20px;
+    font-size: 10px;
+    cursor: pointer;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .image-button{
+    color: #fff;
+    background-color: #bb3561;
+    cursor: pointer;
+    width: 50px;
+    border-width: 0;
+    border-radius: 3px;
+    height: 20px;
+    font-size: 10px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  th , td{
+    padding: 0.45rem 0.45rem;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 3px;
+    font-size: 14px;
+  }
+   td{
+    color: #5f6266;
+    font-weight: 600;
+   
+   }
+  
+  @media (max-width : 480px){
+     .form-container{
+        width: 90%;
+       
+     }
+     
+     .user-form{
+      flex-direction: column;
+     
+     }
+     .action-buttons{
+      flex-direction: column;
+      gap: 3px;
+     }
+     .user-name-input{
+      margin-bottom: 5px;
+     }
+  }
+  
+  @media (max-width : 680px){
+    .form-container{
+      width: 95%;
+   }
+  }
+  

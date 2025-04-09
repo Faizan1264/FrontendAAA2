@@ -1,0 +1,243 @@
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+  background-color: #fff;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.1);
+  
+  transition: all 0.3s ease; 
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+
+  padding-right: 7px;
+  
+}
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+  }
+  
+  .logo-image {
+    height: 50px;
+   
+  
+  }
+  
+  .humberger-image {
+    height: 30px;
+    display: none;
+    cursor: pointer;
+  }
+  
+  
+  .nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  
+  @media (max-width: 480px) {
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      background: white;
+      position: absolute;
+      top: 50px;
+      align-items: flex-start;
+      width: 60%;
+      padding: 10px;
+      color: #333;
+      z-index: 999;
+      margin: 0;
+      left: 0;
+    }
+  
+    .nav-menu.active {
+      display: flex;
+    }
+  
+    .humberger-image {
+      display: block;
+    }
+  
+    .ul-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+     
+    }
+  
+    .register-button-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+
+
+  @media (max-width: 680px) {
+    .nav-menu {
+      display: none;
+      flex-direction: column;
+      background: white;
+      position: absolute;
+      top: 50px;
+      align-items: flex-start;
+      width: 60%;
+      padding: 10px;
+      color: #333;
+      z-index: 998;
+      margin: 0;
+      left: 0;
+    }
+  
+    .nav-menu.active {
+      display: flex;
+    }
+  
+    .humberger-image {
+      display: block;
+    }
+  
+    .ul-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+     
+    }
+  
+    .register-button-container {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+  }
+  
+  .ul-container {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+    color: #333;
+  }
+  
+  .register-button-container {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .sign-button,
+  .login-button {
+    width: 80px;
+    height: 30px;
+    color: black;
+  }
+
+
+
+
+.link-items{
+  text-decoration: none;
+}
+
+
+
+
+
+.dropdown-container {
+  position: relative;
+  display: inline-block;
+}
+
+
+.dropdown-toggle-button {
+ 
+  background-color: #486786;
+  color: #fcf6f6ef;
+ 
+  font-weight: 600;
+  width: 90px;
+  height: 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  right: 0;
+  top: 100%;
+
+  
+
+
+
+  background-color: white;
+  
+  min-width: 120px;
+
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+
+  z-index:998;
+  border-radius: 4px;
+  overflow: hidden;
+  display: block;
+ 
+}
+
+
+.dropdown-item {
+  width: 70%;
+  
+  text-align: left;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+  color: #333;
+ 
+}
+
+.dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+
+@media (max-width: 480px) {
+  .dropdown-container {
+    width: 90%;
+    margin-top: 10px;
+  }
+  
+  .dropdown-toggle-button {
+    width: 70%;
+    
+  }
+  
+  .dropdown-menu {
+    width: 80%;
+    position: relative;
+  }
+} 
+
+
+
+
+
+
+
+
+
+

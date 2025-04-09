@@ -1,0 +1,101 @@
+.hero-main-container{
+    display: flex;
+    flex-direction: column;
+    /* min-height: calc(100vh - 50px); */
+    height: auto;
+    /* border: 1px solid blue; */
+    background-color: #5e5b5b;
+   
+}
+
+.hero-container{
+    display: flex;
+    /* border: 2px solid red; */
+    padding: 30px;
+    
+}
+
+.head-para-container{
+    display: flex;
+    
+    flex-direction: column;
+    padding: 10px;
+    padding-left: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hero-image-container{
+    display: flex;
+    justify-content: center;
+   
+    padding: 10px;
+}
+.hero-image{
+    height: 230px;
+
+}
+
+.welcome-para{
+    color: black;
+    text-align: justify;
+}
+.services-container{
+    display: flex;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+   
+
+}
+
+
+.logistics-service-container{
+    display: flex;
+    flex-direction: column;
+    
+    padding-left: 20px;
+    
+}
+.services-image{
+    height: 80px;
+    width: 80px;
+    border-radius: 100px;
+   
+}
+
+
+@media (max-width : 680px){
+    .hero-image{
+       height: 30%;
+       width: 100%;
+    
+    }
+    .hero-container{
+        flex-direction: column;
+       }
+
+       .services-container{
+        flex-direction: column;
+        
+       }
+       .head-para-container{
+        margin-left: 0;
+        margin-right: 0;
+       }
+}
+
+@media (max-width : 480px){
+   .hero-container{
+    flex-direction: column;
+   }
+   .hero-image{
+    width: 100%;
+   }
+   .services-container{
+    flex-direction: column;
+    
+   }
+}
