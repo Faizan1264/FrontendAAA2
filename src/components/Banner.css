@@ -16,9 +16,12 @@
     font-size: 1.1rem;
     color: #eee;
   }
+  .image-heading{
+    font-size: 18px;
+  }
   
   .carousel {
-    border-radius: 8px;
+    /* border-radius: 8px; */
     overflow: hidden;
     
   }
